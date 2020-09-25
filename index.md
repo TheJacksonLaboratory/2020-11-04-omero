@@ -335,11 +335,8 @@ please preview your site before committing, and make sure to run
   you will need access to the software described below.
   In addition, you will need an up-to-date web browser.
 </p>
-<p>
-  We maintain a list of common issues that occur during installation as a reference for instructors
-  that may be useful on the
-  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
-</p>
+
+{% include none/setup.html %}
 
 {% comment %}
 For online workshops, the section below provides:
@@ -354,10 +351,3 @@ to include the relevant installation instrucctions.
 {% if online != "false" %}
 {% include install_instructions/videoconferencing.html %}
 {% endif %}
-
-{% comment %}
-These are the installation instructions for the tools used
-during the workshop.
-{% endcomment %}
-
-{% include none/setup.html %}
