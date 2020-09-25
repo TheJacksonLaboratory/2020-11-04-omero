@@ -84,7 +84,7 @@ INTRODUCTION
 Edit the general explanatory paragraph below if you want to change
 the pitch.
 {% endcomment %}
-{% include swc/intro.html %}
+{% include none/intro.html %}
 
 {% comment %}
 AUDIENCE
@@ -92,7 +92,7 @@ AUDIENCE
 Explain who your audience is.  (In particular, tell readers if the
 workshop is only open to people from a particular institution.
 {% endcomment %}
-{% include swc/who.html %}
+{% include none/who.html %}
 
 {% comment %}
 LOCATION
@@ -283,7 +283,7 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 {% endcomment %}
 <h2 id="schedule">Schedule</h2>
 
-{% include swc/schedule.html %}
+{% include none/schedule.html %}
 
 <hr/>
 
@@ -306,7 +306,7 @@ please preview your site before committing, and make sure to run
 {% endcomment %}
 <h2 id="syllabus">Syllabus</h2>
 
-{% include swc/syllabus.html %}
+{% include none/syllabus.html %}
 
 <hr/>
 
@@ -362,4 +362,4 @@ These are the installation instructions for the tools used
 during the workshop.
 {% endcomment %}
 
-{% include swc/setup.html %}
+{% include none/setup.html %}
