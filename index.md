@@ -269,6 +269,12 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 {% comment %}
 SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
+<h2 id="surveys">Post-workshop survey</h2>
+
+<p>
+Please complete this brief anonymous <a href="https://www.surveymonkey.com/r/339NM8K">post-workshop survey</a> to help us understand the impact of this training. Thanks!
+</p>
+
 <hr/>
 
 
